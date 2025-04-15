@@ -7,7 +7,7 @@ pub fn build(b: *std.Build) void {
 
     // Create executable
     const exe = b.addExecutable(.{
-        .name = "raylib-app",
+        .name = "snake",
         .root_source_file = .{ .cwd_relative = "src/main.zig" },
         .target = target,
         .optimize = optimize,
